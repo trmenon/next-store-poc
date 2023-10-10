@@ -1,0 +1,27 @@
+.user-card {
+    border: 1px solid #CCC; 
+    padding: 12px;
+    border-radius: 8px;     
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.regular{background-color: #FFF;}
+.selected{background-color:rgb(160, 169, 170);}
+
+.user-card p {
+    color: #21252d; 
+    font-size: 10px;
+    font-weight: 500;
+}
+.user-card h4 {
+    color: #0c0e11; 
+    font-weight: 900;
+}
+.user-card h6 {
+    color: #1e242c; 
+    font-weight: 700;
+}

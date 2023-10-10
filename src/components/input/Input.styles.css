@@ -1,0 +1,59 @@
+.input {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.input .fieldset {
+    display: flex;
+    flex-grow: 1;
+    padding: 0px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.input .fieldset .input-label {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.input .fieldset .input-label label{
+    display: flex;
+    flex-grow: 1;
+    padding: 0px 4px;
+    text-align: left;
+    color: #1b202c;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.input .fieldset .input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.input .fieldset .input-field input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 36px;
+    flex-grow: 1;
+    padding: 0px 4px;
+    color: #1b202c;
+    border: 1px solid #1b202c;
+    background-color: transparent;
+    outline: none;
+    border-radius: 4px;
+}
+.input .fieldset .input-field input:focus{
+    color: #1b4cc0;
+    border: 1px solid #1b4cc0;
+    background-color: #d9dee9;
+}
